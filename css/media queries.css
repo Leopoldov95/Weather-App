@@ -1,0 +1,77 @@
+@media only screen and (max-width: 980px) {
+  .nav {
+    padding: 0 2rem;
+  }
+
+  .current-weather .current-weather-card {
+    margin: auto;
+  }
+
+  .weather-forecast .forecast-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .nav {
+    padding: 0;
+    height: 5rem;
+  }
+
+  .nav .container {
+    display: block;
+  }
+
+  .nav .container > div {
+    justify-content: center !important;
+  }
+
+  .nav .container .logo {
+    display: none;
+  }
+
+  .nav .container .current-city {
+    height: 2rem;
+  }
+
+  .nav .container .city-icon {
+    display: none;
+  }
+
+  #autocomplete {
+    padding-right: 6px;
+  }
+
+  .current-weather .current-weather-card {
+    margin: 0 1rem;
+  }
+
+  .current-weather
+    .current-weather-card
+    .current-weather-left
+    .current-weather-info {
+    margin-left: 1rem;
+    padding: 1.5rem;
+  }
+
+  .current-weather .current-weather-card .current-weather-right {
+    display: none;
+  }
+
+  .weather-forecast .container .forecast-card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .weather-forecast .container .forecast-card .forecast-description {
+    display: none;
+  }
+
+  .weather-forecast .container .forecast-card .forecast-icon .forecast-img {
+    width: 60px;
+  }
+
+  .weather-forecast .container .forecast-card .forecast-temp h1 {
+    font-size: 2rem;
+  }
+}
