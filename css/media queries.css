@@ -1,8 +1,4 @@
-@media only screen and (max-width: 980px) {
-  .nav {
-    padding: 0 2rem;
-  }
-
+@media only screen and (max-width: 1280px) {
   .current-weather .current-weather-card {
     margin: auto;
   }
@@ -12,7 +8,17 @@
     margin-right: auto;
   }
 }
-@media only screen and (max-width: 650px) {
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    padding: 0 2rem;
+  }
+  .nav .container .logo h2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
   .nav {
     padding: 0;
     height: 5rem;
@@ -22,12 +28,12 @@
     display: block;
   }
 
-  .nav .container > div {
-    justify-content: center !important;
-  }
-
   .nav .container .logo {
     display: none;
+  }
+
+  .nav .container > div {
+    justify-content: center !important;
   }
 
   .nav .container .current-city {

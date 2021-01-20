@@ -49,8 +49,20 @@ body {
 
 .nav .container > div {
   display: flex;
+  margin-left: 12px;
 }
 
+.nav .container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .container .logo i {
+  font-size: 2rem;
+  color: var(--icon-color);
+  margin-right: 10px;
+}
 .nav .container .logo {
   margin: auto;
 }
@@ -347,6 +359,7 @@ body {
 
 #autocomplete {
   position: relative;
+  margin-right: 12px;
 }
 
 .results {
