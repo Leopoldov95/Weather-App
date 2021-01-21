@@ -80,4 +80,13 @@
   .weather-forecast .container .forecast-card .forecast-temp h1 {
     font-size: 2rem;
   }
+
+  .search-outer {
+    position: relative;
+  }
+
+  .dropdown {
+    position: absolute;
+    left: 0;
+  }
 }
