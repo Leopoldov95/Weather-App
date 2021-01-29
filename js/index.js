@@ -38,8 +38,6 @@ const autoCompleteConfig = {
       return [];
     }
 
-    //have to use a capitol 'S' in 'Search' since the API has it named as such
-    console.log(response.data);
     return response.data.features;
   },
 };
@@ -78,12 +76,12 @@ const onCitySelect = async (
         lon: city.properties.lon,
         appid: config.WEATHER_KEY,
         units: "metric",
-        //bias: `proximity:${movie.properties.lon},${movie.properties.lat}`,
-        //i: movie.properties.place_id,
       },
     }
   );
-  console.log(response);
+  //setting default temp to celcius when searching to prevent error, not the nicest fix though...
+  document.getElementById("unit").checked = false;
+  document.querySelector("#unit-name").innerHTML = "Celcius";
   //appending the HTML generator to the HTML
   currentWeatherElement.innerHTML = generateCurrentData(response.data);
   currentCityElement.innerHTML = generateCurrentCity(
