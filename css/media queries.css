@@ -7,6 +7,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .topnav {
+    padding-right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -33,7 +37,8 @@
   }
 
   .nav .container > div {
-    justify-content: center !important;
+    justify-content: center;
+    margin-left: 0;
   }
 
   .nav .container .current-city {
@@ -83,10 +88,24 @@
 
   .search-outer {
     position: relative;
+    margin-left: 1.8rem;
   }
 
   .dropdown {
     position: absolute;
     left: 0;
+  }
+
+  .topnav {
+    padding-right: 1rem;
+    align-self: auto;
+  }
+
+  .topnav #myLinks {
+    margin-top: 36px;
+  }
+
+  .nav .nav-right {
+    justify-content: space-between !important;
   }
 }
