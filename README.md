@@ -4,7 +4,7 @@
 * [Features](#features)
 * [Screenshot](#screenshot)
 * [Technologies](#technologies)
-* [What I Learned](#what i learned)
+* [What I Learned](#what-i-learned)
 
 
 ## General Info
