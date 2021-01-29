@@ -27,3 +27,7 @@ The app was created with the following technologies
 
 ## What I Learned
 This was my larget project to date and as a result I was able to learn a lot about javaScript, handling HTTP requests, async code, and most importantly not being afraid to go into unkown and new territories of programming. I am aware that at the moment the source code is quite messy and definitely has room for refactoring.
+
+When I first started to create this app, I had little understanding of handling requests, handling API data, and as well about asynchronous javaScript. You can view my first attempt at creating a weather app at https://weather-app-old.netlify.app/. I wasn't too happy about it, the weather API allows only for one city search at a time. Also the older weather app doesn't scale down well for mobile and tablet view.
+
+As a result I decided to create a more ambitious weather app, one that looks nicer and that contains a autocomplete searchbar. I ended up using a seperate location API that returns multiple city results based on name and then using that data for the weather API to allow me to search for the selected city. I also added a feature that allows the user to switch between imperial and metric units without having to make a new request.
