@@ -108,4 +108,8 @@
   .nav .nav-right {
     justify-content: space-between !important;
   }
+
+  footer {
+    font-size: 12px;
+  }
 }

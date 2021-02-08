@@ -16,6 +16,11 @@ body {
   background-color: var(--primary-bg);
 }
 
+a {
+  text-decoration: none;
+  color: var(--icon-color);
+}
+
 /* utilities */
 .p-1 {
   padding: 1rem;
@@ -510,4 +515,13 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
 }
